@@ -1,12 +1,53 @@
 //* Define variables for:
     //* const inquirer 
     //* const fs = require
-    //* const axios for get 
+
 
 // require the Inquirer module 
 const inquirer = require('inquirer');
 // require the File System module 
 const fs = require ('fs'); 
+
+//* Create the Markdown and insert template literals 
+
+const generateMD = (questions) =>
+`
+# ${questions.title}
+<br />
+## Table of Contents
+<br />
+- License
+- Description 
+- Installation
+- Usage 
+- Contribution Guidelines
+- Test Instructions
+- Questions 
+<br />
+## License
+${questions.license}
+<br />
+## Description
+${questions.description}
+<br />
+## Installation
+${questions.installation}
+<br />
+## Usage
+${questions.usage}
+<br />
+## Contribution Guidelines
+${questions.contributing}
+<br />
+## Test Instructions 
+${questions.testing}
+<br />
+## Questions?
+Reach out! 
+[${questions.username}] (https://github.com/${questions.username})
+${questions.email}
+`
+;
 
 //* Create an array of questions for user input
     //* prompt the user for Description, Installation, Usage, Contributing, and Tests
