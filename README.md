@@ -1,5 +1,6 @@
 
-# s
+
+# Awesome README Generator
 
 ## Table of Contents
 
@@ -22,33 +23,33 @@
 ## License
 
 
-![Badge](https://img.shields.io/badge/license-Apollo-blueviolet.svg)
+![Badge](https://img.shields.io/badge/license-WTFPL-blueviolet.svg)
 
 
 ## Description
 
-s
+This command line application automagically creates an awesome README! 
 
 ## Installation
 
-s
+To install simply fork, clone or download the project from our GitHub repo.
 
 ## Usage
 
-s
+You will need to install the Inquirer package from NPM. From the terminal simply run ‘NPM install inquirer’.
 
 ## Contribution Guidelines
 
-s
+All contributions are welcome!
 
 ## Test Instructions 
 
-s
+To test run ‘node index.js’.
 
 ## Questions?
 
 Reach out! 
 
-GitHub: <a href="https://github.com/s">s</a>
+GitHub: <a href="https://github.com/darrindevs">darrindevs</a>
 
-s
+hello@darrin.dev
