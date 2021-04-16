@@ -22,9 +22,9 @@ Never create a boring README.md again! Use the *Awesome README Generator* to cre
 
 ## Screenshots
 
-![Check out the README](https://zno.s3-us-west-1.amazonaws.com/generator+screenshot.png)
+![Generator](https://zno.s3-us-west-1.amazonaws.com/generator.png)
 
-![Check out the README](https://zno.s3-us-west-1.amazonaws.com/README+sceenshot.png)
+![README](https://zno.s3-us-west-1.amazonaws.com/README+sceenshot.png)
 
 
 ## Technologies Used
