@@ -37,6 +37,8 @@ Never create a boring README.md again! Use the *Awesome README Generator* to cre
 
 ❓ Inquirer.js - Inquirer.js is a collection of common interactive command line user interfaces.
 
+🎫 Shields.io - Shields.io serves fast and scalable metadata badges for open source projects.
+
 ☑️ Git - Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.
 
 ⛅️ GitHub - GitHub, Inc. is a provider of Internet hosting for software development and version control using Git.
