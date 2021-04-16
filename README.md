@@ -1,55 +1,22 @@
-
-
 # Awesome README Generator
 
-## Table of Contents
-
-[License](#License)
-
-[Description](#Description)
-
-[Installation](#Installation)
-
-[Usage](#Usage)
-
-[Contribution Guidelines](#Contribution)
-
-[Installation](#Installation)
-
-[Testing](#Testing)
-
-[Questions](#Questions)
-
-## License
+## About
 
 
-![Badge](https://img.shields.io/badge/license-WTFPL-blueviolet.svg)
+## How to Install
 
 
-## Description
+## Walkthrough
 
-This command line application automagically creates an awesome README! 
+<iframe src="https://player.vimeo.com/video/537546898?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="810" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Awesome README Generator"></iframe>
 
-## Installation
+## Screenshots
 
-To install simply fork, clone or download the project from our GitHub repo.
 
-## Usage
+## Technologies Used
 
-You will need to install the Inquirer package from NPM. From the terminal simply run ‘NPM install inquirer’.
 
-## Contribution Guidelines
+## Author
 
-All contributions are welcome!
 
-## Test Instructions 
 
-To test run ‘node index.js’.
-
-## Questions?
-
-Reach out! 
-
-GitHub: <a href="https://github.com/darrindevs">darrindevs</a>
-
-hello@darrin.dev
