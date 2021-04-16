@@ -13,38 +13,57 @@ const fs = require ('fs');
 const generateMD = (answers) =>
 `
 # ${answers.title}
-<br />
+
 ## Table of Contents
-<br />
-- License
-- Description 
-- Installation
-- Usage 
-- Contribution Guidelines
-- Test Instructions
-- Questions 
-<br />
+
+[License](#License)
+
+[Description](#Description)
+
+[Installation](#Installation)
+
+[Usage](#Usage)
+
+[Contribution Guidelines](#Contribution)
+
+[Installation](#Installation)
+
+[Testing](#Test Instructions)
+
+[Questions](#Questions)
+
 ## License
-${answers.license}
-<br />
+
+
+![Badge](https://img.shields.io/badge/license-${answers.license}-blueviolet.svg)
+
+
 ## Description
+
 ${answers.description}
-<br />
+
 ## Installation
+
 ${answers.installation}
-<br />
+
 ## Usage
+
 ${answers.usage}
-<br />
+
 ## Contribution Guidelines
+
 ${answers.contributing}
-<br />
+
 ## Test Instructions 
+
 ${answers.testing}
-<br />
+
 ## Questions?
+
 Reach out! 
-[${answers.username}] (https://github.com/${answers.username})
+
+GitHub: <a href="https://github.com/${answers.username}">${answers.username}</a>
+
 ${answers.email}
 `
 ;
@@ -91,13 +110,17 @@ inquirer
             name: 'testing',
         },
         {
-            type: 'input',
-            message: '🏷 Select a license type.',
+            type: 'list',
+            message: '✅  Select a license type.',
             name: 'license',
+            choices: ['Apollo', 'GNU', 'MIT', 'Mozilla', 'WTFPL', 'Zlib'],
+            //filter: function () {
+                //return `![Badge](https://img.shields.io/badge/license-${answers.license}-blue)`;
+            //}
         },
         {
             type: 'input',
-            message: '😸 Enter your GitHiub username.',
+            message: '😸 Enter your GitHub username.',
             name: 'username',
         },
         {
@@ -106,7 +129,11 @@ inquirer
             name: 'email',
         },
     ])
+    
+
+
     .then(answers => {
+        
         // pass in our answers to a new var for the content
         const readmeContent = generateMD(answers);
         // write to the FS
@@ -115,6 +142,4 @@ inquirer
         );
     });
     
-
-//* In a function initialize the inquirer package 
 
