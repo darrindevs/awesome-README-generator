@@ -38,6 +38,8 @@ const generateMD = (answers) =>
 
 ![Badge](https://img.shields.io/badge/license-${answers.license}-blueviolet.svg)
 
+Covered under the ${answers.license} license. 
+
 
 ## Description
 
