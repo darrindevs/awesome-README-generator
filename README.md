@@ -1,5 +1,5 @@
 
-# d
+# s
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@
 
 [Installation](#Installation)
 
-[Testing](#Test Instructions)
+[Testing](#Testing)
 
 [Questions](#Questions)
 

@@ -12,6 +12,7 @@ const fs = require ('fs');
 
 const generateMD = (answers) =>
 `
+
 # ${answers.title}
 
 ## Table of Contents
@@ -28,7 +29,7 @@ const generateMD = (answers) =>
 
 [Installation](#Installation)
 
-[Testing](#Test Instructions)
+[Testing](#Testing)
 
 [Questions](#Questions)
 
