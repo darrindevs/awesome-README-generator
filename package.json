@@ -1,0 +1,24 @@
+{
+  "name": "awesome-README-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darrindevs/awesome-README-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darrindevs/awesome-README-generator/issues"
+  },
+  "homepage": "https://github.com/darrindevs/awesome-README-generator#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "inquirer": "^8.0.0"
+  }
+}
