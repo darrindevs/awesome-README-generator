@@ -15,7 +15,7 @@ Never create a boring README.md again! Use the *Awesome README Generator* to cre
 
 ## Walkthrough Video
 
-[Watch the video!](https://www.dropbox.com/s/q1l3yx4tx84prgl/Screen%20Shot%202021-05-12%20at%203.30.38%20PM.png?dl=0)
+[Watch the video!](https://www.dropbox.com/s/3iwx39d8qhgj8c3/README.mp4?dl=0)
 
 [Check out the README](https://zno.s3-us-west-1.amazonaws.com/README.md)
 
